@@ -1,0 +1,127 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/pexels-photo-771742.webp"
+      },
+      "image": "src/assets/pexels-photo-9686759.webp",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "emma_travels",
+        "profile_pic": "src/assets/pexels-photo-415829.webp"
+      },
+      "image": "src/assets/free-photo-of-urban-winter-street-scene-with-bare-trees.jpeg",
+      "caption": "Climbed all the way up here just for this view 🏔️✨ #HikingAdventures",
+      "likes": 340,
+      "comments": [
+        {
+          "user": "nature_lover",
+          "comment": "Breathtaking view 😍"
+        },
+        {
+          "user": "hike_buddy",
+          "comment": "This is on my bucket list!"
+        }
+      ],
+      "timestamp": "2025-02-12T09:15:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "chef_mario",
+        "profile_pic": "src/assets/pexels-photo-432059.webp"
+      },
+      "image": "src/assets/pexels-photo-30549921.webp",
+      "caption": "Tonight’s special: Truffle risotto 🍽️🍄 #FoodieLife",
+      "likes": 215,
+      "comments": [
+        {
+          "user": "foodie_girl",
+          "comment": "Looks so delicious 😋"
+        },
+        {
+          "user": "kitchen_king",
+          "comment": "Recipe, please!"
+        }
+      ],
+      "timestamp": "2025-02-13T18:45:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "john_doe",
+    "profile_pic": "src/assets/pexels-photo-771742.webp"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "src/assets/pexels-photo-771742.webp"
+    },
+    {
+      "id": "102",
+      "username": "emma_k",
+      "profile_pic": "src/assets/pexels-photo-415829.webp"
+    },
+    {
+      "id": "103",
+      "username": "chef_mario",
+      "profile_pic": "src/assets/pexels-photo-432059.webp"
+    },
+    {
+      "id": "104",
+      "username": "emma_k",
+      "profile_pic": "src/assets/pexels-photo-415829.webp"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/pexels-photo-771742.webp"
+      },
+      "image": "/src/assets/pexels-photo-9686759.webp"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "emma_travels",
+        "profile_pic": "src/assets/pexels-photo-9686759.webp"
+      },
+      "image": "/src/assets/pexels-photo-1704488.webp"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "chef_mario",
+        "profile_pic": "src/assets/pexels-photo-432059.webp"
+      },
+      "image": "/src/assets/pexels-photo-30549921.webp"
+    }
+  ],
+  "followers": []
+}
